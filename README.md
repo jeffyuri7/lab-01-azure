@@ -19,3 +19,22 @@ Isso quer dizer que você paga apenas pelos recursos que utilizar e durante o te
 No entanto, apesar de todos os benefícios que a computação em nuvem oferece, faz-se necessário que o arquiteto das soluções Devops de uma determinada compania tenha conhecimentos sobre o devido funcionamento dos recursos disponíveis no ambiente de cloud escolhido, para evitar cobranças indevidas e gastos desnecessários. É nessa esteira que os treinamentos como esse realizado pela Digital Inovation One (DIO) e as certificações como a AZ-900 ajudam a preparar o profissional de mercado para projetar e encontrar a melhor solução para cada caso.
 
 ___Escrito por Jefferson Yuri Lima___
+
+---
+
+# Laboratório 2 - Criando Máquinas Virtuais no Azure
+## Resumo sobre o aprendizado do Segundo Laboratório do Curso DIO: Azure Essentials
+
+O segundo laboratório do curso Azure, apesar do tema "Criando Máquinas Virtuais no Azure", explorou as características do SLA. Trata-se do Acordo de Nível de Serviço, na sua tradução para o português, que diz respeito principalmente às características de disponibilidade dos recursos da nuvem contratados. O SLA prevê determinados tempos aceitáveis de indisponibilidade do recurso contratado abordando os períodos de uma semana, um mês e um ano. Quanto maior a porcentagem do SLA menor é o tempo de insdiponibilidade que aquele recurso poderá ficar.
+
+É importante citar que o SLA não se trata de uma previsão exata de indisponibilidade do recurso. A Microsoft não está afirmando que aquele item ficará indisponível por aquele tempo durante os períodos acordados. O que se busca aqui é acordar um tempo razoável em que o recurso poderá ficar indisponível para fins de manutenção ou outros serviços que impactem a utilização do recurso.
+
+Caso o recurso venha a ficar indisponível por mais tempo do que o previsto no SLA a Microsoft irá disponibilizar créditos para o cliente utilizar no ambiente da Azure. 
+
+O SLA é muito importante para a estratégia da empresa e do negócio. Visto que estão envolvidos a disponibilidade do servidor e os custos associados é importante que o arquiteto do sistema tenha ciência das necessidades do projeto e dos gastos envolvidos para assim adequar ambos ao SLA mais apropriado. Por isso, em casos como testes de aplicativo pode-se optar por utilizar um recurso que possua um SLA com tempo de indisponibilidade maior do que um recurso que está em ambiente de produção.
+
+
+___Escrito por Jefferson Yuri Lima___
+
+---
+
