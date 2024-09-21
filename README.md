@@ -1,4 +1,5 @@
-# lab-01-azure
+# Laboratório 1 - Localizando Serviços por Categoria
+
 ## Resumo sobre o aprendizado do Primeiro Laboratório do Curso DIO: Azure Essentials
 
 A computação em nuvem é o fornecimento de serviços de computação pela Internet. Empresas como Microsoft, Amazon e Google oferecem tais serviços. A ideia de poder ter o melhor do que um datacenter pode oferecer sem precisar arcar com enormes investimentos com equipamentos fazem da computação em nuvem um excelente serviço.
@@ -16,3 +17,5 @@ Existem basicamente três tipos de nuvem:
 Isso quer dizer que você paga apenas pelos recursos que utilizar e durante o tempo que utilizar. Esse modelo de cobrança permite que a estrutura e os gastos de um negócio possam crescer proporcionalmente de acordo com a demanda do projeto, escalando conforme a necessidade.
 
 No entanto, apesar de todos os benefícios que a computação em nuvem oferece, faz-se necessário que o arquiteto das soluções Devops de uma determinada compania tenha conhecimentos sobre o devido funcionamento dos recursos disponíveis no ambiente de cloud escolhido, para evitar cobranças indevidas e gastos desnecessários. É nessa esteira que os treinamentos como esse realizado pela Digital Inovation One (DIO) e as certificações como a AZ-900 ajudam a preparar o profissional de mercado para projetar e encontrar a melhor solução para cada caso.
+
+___Escrito por Jefferson Yuri Lima___
