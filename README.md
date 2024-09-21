@@ -38,3 +38,27 @@ ___Escrito por Jefferson Yuri Lima___
 
 ---
 
+# Laboratório 3 - Configurando uma instância de Banco de Dados na Azure
+## Resumo sobre o aprendizado do Terceiro Laboratório do Curso DIO: Azure Essentials
+
+Neste laboratório vemos algumas configurações referentes à criação de Máquinas Virtuais bem como de Banco de Dados no Azure. 
+
+Conforme a imagem abaixo, vemos que é necessário realizar várias configurações relacionadas à criação de uma máquina virtual. Essas configurações definirão o tipo de máquina escolhido, a sua capacidade processamento e de armazenamento, se ela estará visível na internet ou não, entre outras.
+
+![image](https://github.com/user-attachments/assets/867c52de-9beb-4dca-b172-2130e22f96ec)
+
+É importante citar que o preço, a disponibilidade e a capacidade de processamento de tais máquinas será completamente influenciado pelo que for configurado. Por isso deve-se ter conhecimento sobre as regras de negócio e as necessidades ligadas àquele recurso.
+
+Além do laboratório mostrar máquinas virtuais vemos brevemente algumas configurações referentes a Banco de Dados.
+
+Conforme vemos na imagem abaixo, também extraída do meu ambiente no Azure, vemos que o banco de dados também necessita de diversas configurações, entre elas a criação de um servidor de dados, que é demonstrado pela professora no Laboratório. 
+
+![image](https://github.com/user-attachments/assets/8596bc4e-0eb7-4424-bf8a-25761ffdb4c3)
+
+Outra característica importante a citar referente ao Banco de Dados é a configuração de redundância. Esse é um dos principais itens que impactará diretamente na disponibilidade do seu sistema mesmo diante de problemas e impactará também no SLA.
+
+Por último, mas não menos importante, não podemos deixar de citar a importância de configurar a segurança destes recursos visto que geralmente estes ficarão disponíveis na internet e por isso podem ser alvo de ataques. Sendo assim, é imprescindível a realização de configurações de segurança.
+
+
+___Escrito por Jefferson Yuri Lima___
+---
