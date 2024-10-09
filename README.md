@@ -62,3 +62,27 @@ Por último, mas não menos importante, não podemos deixar de citar a importân
 
 ___Escrito por Jefferson Yuri Lima___
 ---
+
+# Laboratório 4 - Configurando Arquiteturas no Azure
+## Resumo sobre o aprendizado do Quarto Laboratório do Curso DIO: Azure Essentials
+
+Neste laboratório a professora explicou sobre a infraestrutura física da Azure. No próprio site podemos ver muitas informações sobre isso, como os locais onde há datacenters, pontos de replicação e etc.
+
+A Azure disponibiliza em seu site um globo dinâmico contendo todos os seus datacenters no mundo inteiro. Vemos que há apenas um datacenter no Brasil que replica para os Estados Unidos. Há também uma região no Rio de Janeiro para replicação do datacenter principal que fica em São Paulo em casos de Recuperação por motivo de desastre, quando ligado a dados que são protegidos pela SGPD e não podem sair do país.
+
+Também podemos fazer um tour pelos datacenters da Microsoft por meio do globo. Há uma forma de interagir como se estivéssemos entrando em um datacenter. É possível visualizar diversos locais e obtemos várias informações sobre como são os datacenters realmente.
+
+Além disso, a professora demonstrou no ambiente do Azure como criar Grupos de Recursos. Ela criou um grupo de recursos colocando na região (US) East 2. Quanto as marcações são utilizadas para tagear os recursos que estão sendo utilizados. Isso ajuda a verificar o que foi usado e quanto foi o valor gasto de cada recurso.
+
+O log de atividades fornece informações sobre os recursos que foram criados naquele grupo. O IAM controla as permissões referentes aos recursos. Os eventos do grupo de recursos nos ajuda a fazer automatizações.
+
+A professora criou uma Rede Virtual no mesmo grupo de recursos. Eu repliquei isso em meu ambiente da Azure, tanto criando o meu próprio grupo de recursos, como uma Vnet.
+
+![image](https://github.com/user-attachments/assets/7281f9d9-bc10-4f95-a21a-3ea4d0ec2b9e)
+
+Abaixo a minha Rede Virtual criada no grupo de recursos:
+
+![image](https://github.com/user-attachments/assets/68648e30-6368-465d-86ce-a0407b5d111c)
+
+___Escrito por Jefferson Yuri Lima___
+---
