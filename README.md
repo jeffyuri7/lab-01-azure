@@ -104,17 +104,18 @@ Conectando à maquina virtual criada:
 ![image](https://github.com/user-attachments/assets/803c1de8-34ae-41c7-bee7-abb9a30e6a0a)
 
 Alguns destaques a respeito do processo de criação de VMs:
--- Podemos criar uma VM em qualquer região, inclusive há regiões mais baratas nos EUA.
--- Podemos configurar redundância nas zonas. Há uma opção de utilizar desconto de Spot do Azure. Essa opção não deve ser usada em producação, pois se houver necessidade de outro cliente utilizar tais máquinas a nossa aplicação será automaticamente encerrada. Então essa pode ser uma boa ideia apenas no caso de testes.
--- Precisamos configurar chaves de acesso SSH, as portas que ficarão abertas para a nossa aplicação, os discos utilizados pela VM, redes, balanceamento de carga e backup, monitoramento e outras coisas mais.
--- Diversos recursos adicionais que são criados juntos a uma VM possuem a opção de exclusão automática já no momento de criação. Isso é interessante, para evitar que quando a VM for excluída fiquem recursos órfãos gerando gastos mesmo sem estar sendo utilizados.
+>- Podemos criar uma VM em qualquer região, inclusive há regiões mais baratas nos EUA.
+>- Podemos configurar redundância nas zonas. Há uma opção de utilizar desconto de Spot do Azure. Essa opção não deve ser usada em producação, pois se houver necessidade de outro cliente utilizar tais máquinas a nossa aplicação será automaticamente encerrada. Então essa pode ser uma boa ideia apenas no caso de testes.
+>- Precisamos configurar chaves de acesso SSH, as portas que ficarão abertas para a nossa aplicação, os discos utilizados pela VM, redes, balanceamento de carga e backup, monitoramento e outras coisas mais.
+>- Diversos recursos adicionais que são criados juntos a uma VM possuem a opção de exclusão automática já no momento de criação. Isso é interessante, para evitar que quando a VM for excluída fiquem recursos órfãos gerando gastos mesmo sem estar sendo utilizados.
 
 Com respeito a Área de Trabalho Virtual trata-se de um serviço onde você pode disponbilizar uma máquina virtual para que os colaboradores da sua empresa trabalhem nela, sem precisar enviar máquinas físicas aos empregados. O que se pode destacar aqui basicamente são os dois tipos de área de trabalho:
--- Pessoal: nesse caso a será utilizada exclusivamente por uma pessoa.
--- Em pool: nesse caso haverá uma máquina que poderá ser compartilhada por vários colaboradores, inclusive com possibidade de expansão e balanceamento de carga.
+>- Pessoal: nesse caso a será utilizada exclusivamente por uma pessoa.
+>- Em pool: nesse caso haverá uma máquina que poderá ser compartilhada por vários colaboradores, inclusive com possibidade de expansão e balanceamento de carga.
 
 Por último, a professora explicou brevemente onde se criam as Azure Functions, ou como é traduzido: os Aplicativos de Funções.
 
 Destaca-se que no caso das Azure Functions diversas linguagens são suportadas, como Python, C#, JS com Node, entre outros. E dependendo de qual é a opção escolhida o Azure vai informar o sistema operacional a ser utilizado para executar aquela função. Ressalte-se que nos meus testes eu observei que quase todas as pilhas de execução permitiam a troca entre Linux ou Windows, como SO, à exceção do Python que era executado apenas por Linux.
+
 ___Escrito por Jefferson Yuri Lima___
 ---
