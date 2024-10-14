@@ -119,3 +119,24 @@ Destaca-se que no caso das Azure Functions diversas linguagens são suportadas, 
 
 ___Escrito por Jefferson Yuri Lima___
 ---
+# Laboratório 6 - Dominando o Armazenamento na Azure
+## Resumo sobre o aprendizado do Sexto Laboratório do Curso DIO: Azure Essentials
+
+A professora falou neste laboratório a respeito das Contas de Armazenamento. Estas podem armazenar blobs, arquivos, filas e tabelas. Possuem a característica de que deve possuir um nome entre 3 a 24 caracteres minúsculos e não podem conter caracteres especiais. Também esse nome deve ser único no mundo.
+
+É possível conectar na Conta de Armazenamento em containers de arquivo via SMB na porta 445, no entanto o ideal seria conectar a partir de uma outra máquina dentro do próprio ambiente do Azure para evitar bloqueios pelo provedor de internet. Essa conexão pode ser feita tanto por meio de Windows, quanto Linux e Mac. Nessa configuração também é selecionado o modelo de replicação e configurações de backup.
+
+Como mencionado acima é possível também criar nas contas de armazenamento as filas de mensagerias e as tabelas de SQL.
+
+Ainda ligado ao conteúdo de armazenamento estão as opções de migração para o Azure. Nas opções de migração estão os bancos de dados, as aplicações Web e o Data Box que é um serviço de migração oferecida pelo Azure para pessoas que queiram importar dados de outro ambiente para o Azure ou do Azure para outro ambiente.
+
+Além disso, a professora mostrou e demonstrou como utilizar as ferramenteas AzCopy e Gerenciador de Armazenamento
+
+O AzCopy pode ser instalado tanto no Windows como em Linux e Mac. É necessário ter uma storage account para utilizá-lo. O AzCopy é uma ferramenta utilizada para enviar dados da máquina local para um container no storage account. O AzCopy é um software unilateral, ele apenas envia os dados locais para a nuvem da Azure.
+
+Já o Gerenciador de Armazenamento é um software que sincroniza os dados de forma bilateral na máquina e no storage account. Ele também pode ser instalado em Windows, Linux e Mac. Pelo Gerenciador é possível acessar containeres, filas, tabelas e etc. Pelo gerenciador dá tanto para enviar dados como trazer dados da nuvem para a máquina local.
+
+Essas soluções servem para pequenas massas de dados. Para grandes massas o ideal é a utilização de Data Box.
+
+___Escrito por Jefferson Yuri Lima___
+---
