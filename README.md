@@ -140,3 +140,18 @@ Essas soluções servem para pequenas massas de dados. Para grandes massas o ide
 
 ___Escrito por Jefferson Yuri Lima___
 ---
+# Laboratório 7 - Entendo sobre segurança e identidade na Azure
+## Resumo sobre o aprendizado do Sétimo Laboratório do Curso DIO: Azure Essentials
+
+O laboratório explorou assuntos relacionados a identidade no ambiente da Azure. A professora explicou sobre o EntraID, uma renovação do método convencional chamado Azure Active Directory. Ele é responsável por represar os usuários. Esse serviço é utilizado para criar novos usuários ou para, por exemplo, quando uma empresa com servidor on premise passa para o Azure. Para evitar a replicação dos usuários do on premise no ambiente de nuvem pode ser feita a sincronizaação das identidades daqueles de modo que o Azure passe a ter os mesmos logins em seu ambiente. É importante citar que nesse caso, se um usuário for criado diretamente na nuvem isso não será replicado para o ambiente on premise. Somente poderiam ser aproveitadas as mesmas senhas, mas o usuário em si não será.
+
+Nas configurações do EntraID há várias opções, dentre elas Roles e Administrators onde é possível determinar quais serão os privilégios que os usuários terão, por exemplo, exclusão de outros usuários, alteração de senha e etc. Importante citar que essa configuração diz respeito a permissões ligadas diretamente às contas de usuários e não aos recursos do Azure. Além disso, os usuários que são excluídos ainda poderão ser recuperados em até 30 dias após a exclusão. O serviço Self-service Password Reset pode ser ativado para que caso o usuário esqueça a sua senha ele mesmo possa resetar sua senha. No EntraID podem ser criados novos usuários ou serem convidados usuários externos para participar do ambiente. 
+
+A funcionalidade que sincroniza os usuários de um ambiente on premise para a nuvem se chama Azure Entra Connect. Na opção Custom Domain Names é possível inserir o domínio da empresa para que as novas contas criadas dos seus usuários possuam o nome de domínio da empresa, ao invés do domínio da microsoft. 
+
+Para gerenciar o permissionamento ligado a um determinado recurso isso é feito na configuração Access Control (IAM), acessaando diretamente pelo recurso. Nesse caso o permissionamento é herdável, então se um determinado permissionamento for dado a um resource group todos os recursos que fazem parte dele receberão as mesmas permissões.
+
+Outra ferramente importante é o Microsoft Defender for Cloud, que possui relatórios sobre quão bem aquele ambiente está. Esse serviço é multicloud. Isso quer dizer que é possível por meio dele conectar em outros ambientes cloud como AWS e GCP e fazer varreduras de segurança, por exemplo, nesses ambientes. O Defender também possui recomendações de segurança, oferece segurança no ambiente DevOps, possui alertas de segurança, análises e etc. Também é possível configurar alertas que serão enviados caso algo aconteça no ambiente. O Defender também pode proteger e fazer validações em VMs, storages, containers, APIs, databases e vários outros serviços da Azure. Esse serviço, no entanto, é pago.
+
+___Escrito por Jefferson Yuri Lima___
+---
