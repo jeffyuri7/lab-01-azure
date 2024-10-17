@@ -155,3 +155,15 @@ Outra ferramente importante é o Microsoft Defender for Cloud, que possui relat�
 
 ___Escrito por Jefferson Yuri Lima___
 ---
+
+# Laboratório 8 - Otimizando Custos no Azure
+## Resumo sobre o aprendizado do Oitavo Laboratório do Curso DIO: Azure Essentials
+
+A professora apresentou no laboratório a Calculadora de Custo de Propriedade que nos ajuda a estimar as despesas em uma eventual mudança do ambiente on premise para a cloud. A calculadora leva em conta os recursos que serão utilizados, as licenças de software que precisarão ser adquiridas bem como a opção de levar para o ambiente em nuvem licenças que você já tem adquiridas no ambiente on premise. A calculadora faz a simulação e fornece relatórios sobre os gastos que o contratante terá bem como a economia que será gerada com o decorrer dos anos em comparação com a manutenção do datacenter on premise.
+
+Também foi apresentada a Calculadora de Preço da Azure que simula os custos de recursos isolados na Azure, como máquinas virtuais, storage accounts e etc. É possível fazer uma simulação bem realista dos gastos incluindo licenças, tempo de uso das máquinas e outras configurações.
+
+Outra funcionalidade importante demonstrada no laboratório foi o Cost Management. Este é o ambiente onde é possível visualizar as informações ligadas ao custo da nossa conta, dos recursos que utilizamos. Esse gerenciador nos mostra os custos, mas também faz sugestões sobre como reduzir custos em determinados casos, emite alertas, análises e diversas outras funcionalidade que auxiliam o dono da conta a controlar os gastos de acordo com as suas necessidades sem desperdiçar dinheiro com recursos desnecessários. Aqui no Cost Management as tags são muito úteis para visualizar quais recursos estão sendo utilizados e cobrados. Isso pode ajudar, por exemplo, a dividir os custos entre determinados centros de custo da empresa.
+
+___Escrito por Jefferson Yuri Lima___
+---
