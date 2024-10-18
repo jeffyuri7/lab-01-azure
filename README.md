@@ -167,3 +167,19 @@ Outra funcionalidade importante demonstrada no laboratório foi o Cost Managemen
 
 ___Escrito por Jefferson Yuri Lima___
 ---
+
+# Laboratório 9 - Portal de Confiança do Serviço
+## Resumo sobre o aprendizado do Nono Laboratório do Curso DIO: Azure Essentials
+
+O laboratório apresentou características a respeito do Portal de Confiança do Serviço. A intenção do portal é fornecer informações sobre as boas práticas utilizadas nos datacenters da Microsoft, quem tem acesso, como os dados são salvos, quais são os protocolos utiilizados e etc.
+
+O portal traz informaçõe sobre as certificações, regulamentos e padrões que a Microsoft possui. Normas como ISO, regulamentação de proteção de dados, a respeito de serviços financeiros de acordo com cada país e etc.
+
+Além disso, foi demonstrado e explicadas informações a respeito de locks e policies. Com respeito ao lock (bloqueio) este pode ser feito diretamente no recurso ou em um grupo de recursos. Se o bloqueio for feito no grupo de recursos ele é herdável pelos recursos que fazem parte dele. No entanto, se um recurso deixar de pertencer àquele grupo e passar a pertencer a outro grupo ele perderá os bloqueios associados ao primeiro grupo e receberá os bloqueios associados ao novo grupo, caso existam. No entanto, se o bloqueio tiver sido configurado no próprio recurso não importa para qual grupo de recursos ele vá, o bloqueio irá junto.
+
+As policies podem ser aplicadas a nível de management group, a nível de conta, a nível de resource group e etc. Ela se aplica a todos, inclusive ao dono da conta. Existem policies pré-definidas e podem ser criadas outras personalizadas. O compliance das policies irá informar quando algo não está de acordo com uma policie configurada. Caso o operador tente realizar algo que vai contrário a uma policie a Azure vai bloquear a operação. No entanto, se a policie for criada após outras operações que já foram realizadas e que agora não estão de acordo com a nova policie, então o compliance vai apenas avisar sobre essa situação, cabendo ao operador do ambiente realizar as alterações necessárias para se adequar. Existe a opção de Remediação da Azure para ajustar os recursos às novas policies. Mas isso deve ser ponderado em cada caso de modo a evitar problemas como indispobilidade, por exemplo.
+
+A respeito do Microsoft Purview ele funciona não como um serviço mas como uma suíte de aplicativos que se integra ao Azure, mas também ao Microsoft 365, Microsoft Fabric e outras plataformas. O serviço ajuda a conhecer e obter informações sobre esses ambientes com ferramentas de compliance, privacidade, riscos, governança de dados entre outras. O Purview pode auxiliar a empresa, por exemplo, a analisar como está a situação de privacidade dos dados que ela opera, se está de acordo com a LGPD. A suíte basicamente auxilia na coleta de dados e validação de informações, ajudando a identificar pontos fortes e fracos do seu ambiente. Este serviço possui trial, e depois caso se deseje utilizá-lo precisará de uma assinatura paga.
+
+___Escrito por Jefferson Yuri Lima___
+---
