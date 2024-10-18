@@ -183,3 +183,13 @@ A respeito do Microsoft Purview ele funciona não como um serviço mas como uma 
 
 ___Escrito por Jefferson Yuri Lima___
 ---
+
+# Laboratório 10 - Ferramentas de Implantação do Azure
+## Resumo sobre o aprendizado do Décimo Laboratório do Curso DIO: Azure Essentials
+
+O laboratório falou sobre o Cloud Shell, uma ferramenta de criação de recursos do Azure que pode ser utilizada para a criação de qualquer recurso, mas que pode ser muito útil especialmente para criação de recursos em lote. Para utilizar o cloud shell é necessário possuir uma storage account. O cloud shell está disponível tanto em PowerShell quanto em Bash. Também é possível fazer o upload e download de arquivos para o shell. Acessando os recurso pelo painel é possível ver nas opções de automação informações sobre como trabalhar com aquele recurso via CLI/PS. 
+
+Além disso, foi apresentado o Azure Arc que é uma ferramente de gerenciamento multicloud. Ele está presente em toda assinatura, mas precisa ser configurado para isso. É possível administrar recursos que não são do Azure e também recursos que são do Azure, mas estão fora dele. 
+
+___Escrito por Jefferson Yuri Lima___
+---
