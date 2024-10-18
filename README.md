@@ -193,3 +193,15 @@ Além disso, foi apresentado o Azure Arc que é uma ferramente de gerenciamento 
 
 ___Escrito por Jefferson Yuri Lima___
 ---
+
+# Laboratório 11 - Monitoramento Inteligente com o Azure
+## Resumo sobre o aprendizado do Décimo Primeiro Laboratório do Curso DIO: Azure Essentials
+
+Laboratório bem curto explicando a respeito de ferramentas de monitoramento. Facilmente é possível encontrar no portal da Azure as ferramentas Monitor, Advisor e Service Helth. O Monitor permite monitorar aplicações, containeres, redes, VMs entre outros recursos e possui alertas, logs e métricas que auxiliam nesse monitoramento. É importante estar sempre monitoramento o ambiente para que este esteja bem saudável.
+
+Outro serviço disponível para monitoramento é o Service Health que mostra se o serviço da Azure está afetado em algum lugar do mundo. Possui tanto as issues relacionadas a áreas que estão com algum problema, informações sobre manutenções agendadas, recomendação de saúde e de segurança também.
+
+O Advisor é o centro de recomendações. Ele possui recomendações de custo, segurança, resiliência, performance entre outros. Ele apresenta opções de melhoria e informa que benefícios serão alcançados caso aquela melhoria seja atendida. 
+
+___Escrito por Jefferson Yuri Lima___
+---
